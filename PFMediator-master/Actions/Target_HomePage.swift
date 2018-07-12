@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objcMembers class Target_HomePage: NSObject {
+class Target_HomePage: PFTarget {
     //方法名对应Api 中的 kMediatorActions 的值 加上 Action_
     func Action_HomePageMessageView(_ params: Dictionary<String, Any>?) -> UIViewController {
         let vc = HomePageMessageViewController()
